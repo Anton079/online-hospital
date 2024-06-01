@@ -1,11 +1,21 @@
 ﻿using online_hospital;
+using online_hospital.Administration;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        ViewDoctor viewDoctor = new ViewDoctor();
 
-        viewDoctor.play();
+        ViewLoginPage logPage = new ViewLoginPage();
+
+        logPage.play();
+
+
+
+
+
+
+
+
     }
 }
