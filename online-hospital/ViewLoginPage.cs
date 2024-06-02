@@ -48,6 +48,10 @@ namespace online_hospital
                     case "2":
                         NewRegistration();
                         break;
+
+                    case "3":
+                        ResetareParola();
+                        break;
                 }
             }
 
